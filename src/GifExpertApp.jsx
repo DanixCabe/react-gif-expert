@@ -2,7 +2,7 @@ import {useState} from 'react'
 import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () =>{
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['One Punch Man']);
     
     const onAddCategory = (newCategory) =>{
         //.push no se puede utilizar porque hará una mutación
